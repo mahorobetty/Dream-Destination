@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+/* HEADER */
+.hero {
+    background: url('https://via.placeholder.com/800x300?text=Hawaii+Beach') no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* SECTIONS */
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff0f0;
+    margin: 5px auto;
+    padding: 8px 12px;
+    border-radius: 6px;
+    width: 200px;
+}
+
+/* GALLERY */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.gallery img {
+    width: 200px;
+    border-radius: 6px;
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px;
+}
